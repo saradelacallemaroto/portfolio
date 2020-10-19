@@ -1,0 +1,580 @@
+* {
+    box-sizing: border-box;
+  }
+  @font-face {
+    src: url("../font/HelveticaNeue.ttc");
+    font-family: "HelveticaNeue";
+  }
+  @font-face {
+    src: url("../Font/HelveticaNeue-Bold.ttf");
+    font-family: "HelveticaNeue_bold";}
+    @font-face{
+      src: url("../Font/HelveticaNeue-01.ttf");
+      font-family: "HelveticaNeue_1";
+      }
+      @font-face{
+        src: url("../Font/HelveticaNeue-Light-08.ttf");
+        font-family: "HelveticaNeue_light";
+        }
+        @font-face{
+          src: url("../Font/HelveticaNeue-Medium-11.ttf");
+          font-family: "HelveticaNeue_medium";
+          }
+  body {
+      font-family: "HelveticaNeue";
+  }
+  a {
+    color: #272727;
+    text-decoration: none;
+  }
+  a:hover, #lenguage:hover {
+    font-family: "HelveticaNeue_bold";
+  }
+  .realnav{
+    width: 590px;
+    display: flex;
+justify-content: space-between;
+padding-left: 104px;
+padding-top: 81px;
+line-height: 20px;
+letter-spacing: 6px;
+  }
+  #lenguage{
+    font-family: "HelveticaNeue";
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 6px;
+padding-right: 80px;
+padding-top: 81px;
+  }
+.lenguage:hover{
+    font-family: "HelveticaNeue_bold";
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 1px #272727;
+  background-color: #ffffffea;
+  padding-bottom: 8px;
+  position: fixed;
+  width: 100%;
+  z-index:1000;
+  }
+  h1 {
+    font-family: "HelveticaNeue_bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200px;
+    color: #6FEEC3;
+  }
+  #surname{
+    font-family: "HelveticaNeue_medium";
+font-size: 48px;
+line-height: 59px;
+color: #6FEEC3;
+  }
+  h3{
+    font-family: "HelveticaNeue_light";
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #272727;
+  }
+  .designad{
+    font-family: "HelveticaNeue_light";
+    display: flex;
+    justify-content: space-around;
+    width: 552px;
+height: 39px;
+font-size: 32px;
+color: #272727;
+margin-top: 64px;
+  }
+  #presentation{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: flex-start;
+    padding-top: 48px;
+    margin-top: 148px;
+    margin-left: 172px;
+  }
+.imgcontactlogosize{
+  width: 35px;
+  height: 35px;
+  filter: drop-shadow(0px 4px 4px rgba(39, 39, 39, 0.12));
+}
+.imgcontactlogosize:hover{
+  transform: translateY(-2px);
+  filter: drop-shadow(0px 4px 4px rgba(39, 39, 39, 0.29));
+}
+p{
+  font-size: 20px;
+line-height: 30px;
+margin-top: 8px;
+font-family: "HelveticaNeue_light"
+}
+  .inbox{
+    width: 500px;
+height: 102px;
+margin-top: 8px;
+font-size: 20px;
+line-height: 30px;
+  }
+  button{
+    text-decoration: none;
+    padding: 8px 64px;
+    font-family: "HelveticaNeue_medium","san-serif";
+    font-size: 24px;
+    background-color: #272727;
+  color: #ffffff;
+  border: none;
+  filter: drop-shadow(0px 4px 4px rgba(39, 39, 39, 0.12));
+  margin-top: 32px;
+}
+ button:hover {
+  background-color: #272727;
+  box-shadow: 0px 10px 10px rgba(39, 39, 39, 0.20);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+  width: 64px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+#me {
+  width: 573px;
+  height: 760px;
+  margin-right: 40px;
+  margin-top: 92px;
+}
+#mechange{
+  width: 573px;
+  height: 760px;
+  margin-right: 40px;
+  margin-top: 92px; 
+}
+#me{
+  display: block;
+}
+#mechange{
+  display: none;
+}
+.photo:hover #me{
+  display:none
+}
+.photo:hover #mechange{
+  display: block;
+}
+.photo_and_icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.inicio{
+  display: flex;
+  justify-content: space-between;
+}
+  h2{
+    font-family: "HelveticaNeue_bold";    
+font-size: 60px;
+color: #272727;
+margin-bottom: 32px;
+  }
+  .projectTitle{
+    margin-left: 124px;
+    margin-top: 124px;
+    margin-bottom: 48px;
+  }
+  .maracuyappinfo{
+    width: 700px;
+height: 170px;
+  }
+.maracuyapp_photo{
+  height: 560px; 
+}
+h4{
+  font-family: "HelveticaNeue_medium";    
+  font-size: 15px;
+  color: #272727;
+  margin-bottom: 16px 
+}
+h5{
+  font-family: "HelveticaNeue_light";    
+  font-size: 15px;
+  color: #272727;
+  margin-bottom: 16px 
+}
+h5:hover{
+    font-family: "HelveticaNeue_light";
+    text-decoration: underline;
+}
+.maracuyapp{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 124px;
+}
+.maracuyapp_text{
+  margin-left: 32px;
+}
+.cakeproject{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-right: 186px;
+}
+.cake_video{
+  height: 460px;
+}
+.cakeinfo{
+  width: 700px;
+  height: 170px;
+}
+.cake_text{
+  margin-right: 32px;
+}
+.revoluteinfo{
+  width: 700px;
+height: 170px;
+}
+.revolute_photo{
+height: 560px; 
+}
+.revolute{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 124px;
+}
+.revolute_text{
+  margin-left: 32px;
+}
+.aboutme{
+  width: 700px;
+  margin-left: 124px;
+  margin-top: 32px;
+}
+.father{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 124px;
+}
+.contactsection{
+  margin-top: 124px;
+  margin-left: 124px;
+}
+.emailicon{
+  height: 32px;
+  margin-bottom: 8px;
+}
+.movilicon{
+  height: 32px;
+  margin-bottom: 8px;
+}
+.whatsappicon{
+  height: 32px;
+  margin-bottom: 8px;
+}
+.emailsara{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movilphone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whatsappsara{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.realcontact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-left: solid 8px #6FEEC3;
+  border-right: solid 8px #6FEEC3;
+  width: 600px;
+  height: 64px;
+  margin:0 auto;
+}
+.ubicationIcon{
+height: 15px;
+margin-right: 8px;
+}
+h6{
+  font-family: "HelveticaNeue_light";    
+  font-size: 15px;
+  color: #272727;
+}
+.ubication{
+  display:flex;
+flex-direction: row;
+align-items: center;
+}
+.contactlogoFooter{
+  height: 25px;
+  margin-left: 8px;
+}
+.footerRRSS{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  width: 64px;
+}
+.toalignFooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:16px;
+}
+footer{
+  border-top: solid 1px #272727;
+  margin-top: 32px;
+}
+.heart {
+  fill: #6FEEC3;
+  position: relative;
+  top: 0px;
+  width: 10px;
+  animation: pulse 1s ease infinite;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.5); }
+  100% { transform: scale(1); }
+}
+.textcenter{
+  font-family: "HelveticaNeue_light";
+  font-size: 15px;
+}
+.heartgroup{
+  text-align: center;
+}
+@media only screen and (min-width: 1441px) {
+  #movileresponsive{
+    display: none;
+  }
+  #desktop{
+    display: block;
+  }
+  body, nav {
+    max-width: 1440px;
+    margin: auto;
+  }
+  .realnav{
+    width: 590px;
+    display: flex;
+justify-content: space-between;
+padding-left: 140px;
+padding-top: 81px;
+line-height: 20px;
+letter-spacing: 6px;
+  }
+}
+@media only screen and (min-width: 416px){
+  #movileresponsive{
+    display: none;
+  }
+  #desktop{
+    display: block;
+  }
+}
+@media only screen and (max-width:415px){
+nav{
+  width: 414px;
+}
+#movileresponsive{
+  display: block;
+}
+#desktop{
+  display: none;
+}
+.homeicon{
+  height: 22px;
+}
+.realnav{
+  padding-left: 16px;
+  padding-right: 16px;
+  letter-spacing: 4px;
+  width: 100%;
+padding-top: 24px;
+align-items: flex-end;
+}
+nav{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 375px;
+}
+#lenguage{
+  font-family: "HelveticaNeue";
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 4px;
+padding-right: 16px;
+padding-top: 8px;
+padding-left: 316px;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+}
+h1{
+  font-family: "HelveticaNeue_bold";
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+color: #6FEEC3;
+}
+h2{
+  font-family: "HelveticaNeue_bold";    
+font-size: 32px;
+color: #272727;
+margin-bottom: 32px;
+}
+h3{
+  font-family: "HelveticaNeue_light";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 39px;
+  color: #272727;
+}
+p{
+  font-size: 14px;
+line-height: 30px;
+margin-top: 8px;
+font-family: "HelveticaNeue_light"
+}
+#surname{
+  font-family: "HelveticaNeue_medium";
+font-size: 32px;
+line-height: 32px;
+color: #6FEEC3;
+margin-bottom: 0px;
+}
+.inbox{
+  width: 300px;
+margin-top: 8px;
+font-size: 15px;
+line-height: 30px;
+}
+#presentation{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-content: flex-start;
+  padding-top: 32px;
+  margin-top: 64px;
+  margin-left: 16px;
+}
+.designad{
+  font-family: "HelveticaNeue_light";
+  display: flex;
+  justify-content: space-around;
+  width: 364px;
+height: 39px;
+font-size: 20px;
+color: #272727;
+margin-top: 16px;
+}
+.inicio{
+  flex-direction: column;
+}
+#me {
+  width: 225px;
+  height: 300px;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+#mechange{
+  width: 225px;
+  height: 300px;
+  margin-right: 16px;
+  margin-top: 16px; 
+}
+.photo_and_icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgcontactlogosize{
+  width: 25px;
+  height: 25px;
+  filter: drop-shadow(0px 4px 4px rgba(39, 39, 39, 0.12));
+}
+button{
+  text-decoration: none;
+  padding: 8px 64px;
+  font-family: "HelveticaNeue_medium","san-serif";
+  font-size: 16px;
+  background-color: #272727;
+color: #ffffff;
+border: none;
+filter: drop-shadow(0px 4px 4px rgba(39, 39, 39, 0.12));
+margin-top: 16px;
+}
+.projectTitle{
+  margin-left: 31%;
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+.maracuyapp_photo{
+  height: 320px; 
+}
+.newDirection{
+  display: flex;
+  flex-direction: column;
+}
+.maracuyapp{
+  flex-direction: column;
+}
+.maracuyappinfo{
+  width: 300px;
+}
+.maracuyapp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 16px;
+}
+.newDirectionKnowmore{
+  display: flex;
+  flex-direction: column;
+}
+h5{
+  font-family: "HelveticaNeue_light";    
+  font-size: 15px;
+  color: #272727;
+  margin-bottom: 16px;
+  text-decoration: underline;
+}
+}
+
+
+video {
+  outline: none;
+}
