@@ -10,7 +10,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
-
+<div id="desktop">
 <body>
     <header>
         <nav>
@@ -40,7 +40,7 @@
             </div>
             <div class="photo_and_icons">
                 <div class="photo">
-                    <img id="me" src="images/Yo.jpeg" alt="Mi foto">
+                    <img id="me" src="images/yo.jpeg" alt="Mi foto">
                     <img id="mechange" src="images/fotocambio.jpg" alt="Mi foto">
                 </div>
                 <div class="icons">
@@ -77,7 +77,10 @@
             </div>
             <div data-aos="fade-left"  class="cakeproject">
                 <div>
-                    <img class="cake_video" src="video/videoLaVilla.mov">
+                    <video class="cake_video" controls>
+                        <source src="video/videoLaVilla.mov" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video>
                 </div>
                 <div class="cake_text">
                     <div>
@@ -119,6 +122,32 @@
                     </div>
                 </div>
             </div>
+            <div data-aos="fade-left" class="skyproject">
+                <div>
+                    <video class="sky_video" controls>
+                        <source src="video/skylight.mov" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="sky_text">
+                    <div>
+                        <h3>Skylight</h3>
+                        <p class="skyinfo">
+                            Skylight is an individual project of Ironhack. The idea came up thinking about the amount of incredible sunsets I saw while living in Ibiza and the impossibility of being able to see the Perseids every August in Madrid.
+Skylight is an application to find the best places to observe the sky and to reach them.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Want to know more?</h4>
+                        <a href="" target="_blank">
+                            <h5>Case Study</h5>
+                        </a>
+                        <a href="" target="_blank">
+                            <h5>See the project</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="contact">
             <h2 class="contactsection">Better call Sara</h2>
@@ -132,13 +161,13 @@
                     <div class="emailsara">
                         <img class="emailicon" src="images/emailicon.jpg">
                         <a href=mailto:saraxhy94@gmail.com target="_blank">
-                            <h5>saraxhy94@gmail</h5>
+                            <h5>@Gmail.com</h5>
                         </a>
                     </div>
                     <div class="movilphone">
-                        <img class="movilicon" src="images/Movilicon.jpg">
+                        <img class="movilicon" src="images/Movilicon.png">
                         <a href="tel:+34679273652" target="_blank">
-                            <h5>+34 679273652</h5>
+                            <h5>+34679273652</h5>
                         </a>
                     </div>
                     <div class="whatsappsara">
@@ -185,5 +214,199 @@ c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"></path>
         AOS.init();
       </script>
 </body>
+</div>
+<div id="movileresponsive">
+    <body>
+        <header>
+            <nav>
+                <div class="realnav">
+                    <a href="#title">HOME</a>
+                    <a href="#projects">PROJECTS</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+                <a id="lenguage" href="index.html">ESP</a>
+            </nav>
+        </header>
+        <main>
+            <section class="inicio">
+                <div id="presentation">
+                    <div class="name">
+                        <h1 id="title">Sara</h1>
+                        <h2 id="surname">De La Calle Maroto</h2>
+                    </div>
+                    <div class="designad">
+                        <h3>UX UI Design</h3>
+                        <h3>Advertising & PR</h3>
+                    </div>
+                    <p class="inbox">As long as I can remember, I have been passionate about advertising. I became interested in UX UI to improve my profile and I ended up being fascinated by.</p>
+                    <a href="pdfs/CV_EN.pdf" target="_blank" download="CV sara-de-la-calle-maroto">
+                        <button>Download resume</button>
+                    </a>
+                </div>
+                <div class="photo_and_icons">
+                    <div class="photo">
+                        <img id="me" src="images/yo.jpeg" alt="Mi foto">
+                        <img id="mechange" src="images/fotocambio.jpg" alt="Mi foto">
+                    </div>
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/sara-de-la-calle-maroto/" target="_blank"><img
+                                class="imgcontactlogosize" src="images/In.jpg"></a>
+                        <a href="https://www.behance.net/sara_calle_maroto" target="_blank"><img class="imgcontactlogosize"
+                                src="images/BE .jpg"></a>
+                        <a href="https://medium.com/@saraxhy94" target="_blank"><img class="imgcontactlogosize"
+                                src="images/Medium.jpg"></a>
+                    </div>
+                </div>
+            </section>
+            <section id="projects">
+                <h2 class="projectTitle">Projects</h2>
+                <div data-aos="fade-right" class="maracuyapp">
+                    <div>
+                        <img class="maracuyapp_photo" src="images/Frame 1.jpg">
+                    </div>
+                    <div class="maracuyapp_text">
+                        <div>
+                            <h3>Maracuyapp</h3>
+                            <p class="maracuyappinfo">Personal project made in Ironhack. Maracuyapp, an application to help us enjoy sex and forget about our insecurities and prejudices.</p>
+                        </div>
+                        <div>
+                            <h4>Want to know more?</h4>
+                            <a href="" target="_blank">
+                                <h5>Case Study</h5>
+                            </a>
+                            <a href="" target="_blank">
+                                <h5>See the project</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left"  class="cakeproject">
+                    <div>
+                        <video class="cake_video" controls>
+                            <source src="video/videoLaVilla.mov" type="video/mp4">
+                          Your browser does not support the video tag.
+                          </video>
+                    </div>
+                    <div class="cake_text">
+                        <div>
+                            <h3>La Villa Bakery</h3>
+                            <p class="cakeinfo">La Villa bakery is a group project of Ironhack.Our team made this app to help Pastelería La Villa with their online business. Previously part of the team had carried out the research and development of a website.Our team made this app to help Pastelería La Villa with their online business. Previously part of this team had carried out the research and design of a website.
+                            </p>
+                        </div>
+                        <div>
+                            <h4>Want to know more?</h4>
+                            <a href="" target="_blank">
+                                <h5>Case Study</h5>
+                            </a>
+                            <a href="" target="_blank">
+                                <h5>See the project</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-right" class="revolute">
+                    <div>
+                        <img class="revolute_photo" src="images/Revolute.jpg">
+                    </div>
+                    <div class="revolute_text">
+                        <div>
+                            <h3>Revolute</h3>
+                            <p class="revoluteinfo"> ¡Revolute tiene una funcionalidad nueva!
+                                Con ella podrás organizar todos tus gastos por carpetas que además, podrás compartir
+                                con otras personas.
+                            </p>
+                        </div>
+                        <div>
+                            <h4>Want to know more?</h4>
+                            <a href="" target="_blank">
+                                <h5>Case Study</h5>
+                            </a>
+                            <a href="" target="_blank">
+                                <h5>See the project</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="skyproject">
+                    <div>
+                        <video class="sky_video" controls>
+                            <source src="video/skylight.mov" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="sky_text">
+                        <div>
+                            <h3>Skylight</h3>
+                            <p class="skyinfo">
+                                Skylight is an individual project of Ironhack. The idea came up thinking about the amount of incredible sunsets I saw while living in Ibiza and the impossibility of being able to see the Perseids every August in Madrid.
+Skylight is an application to find the best places to observe the sky and to reach them.
+                            </p>
+                        </div>
+                        <div>
+                            <h4>Want to know more?</h4>
+                            <a href="" target="_blank">
+                                <h5>Case Study</h5>
+                            </a>
+                            <a href="" target="_blank">
+                                <h5>See the project</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <h2 class="contactsection">Better call Sara</h2>
+                <div class="father">
+                    <div class="aboutme">
+                        <p>I studied Advertising and PR because I have always loved it. I remember being at school and already having a passion for advertising and inventing incredible stories to sell the things I had at hand. When I finished my life at university I wanted to improve my profile and broaden my knowledge a bit. That's how I came to Ironhack and how I ended up loving the world of UX UI.
+                        </p>
+                        <p>Anything else about me? I love to travel, in fact I studied tourism accommodation management before going to university. I think it's amazing what I'll do when I win the lottery. That's why, although I currently live in Madrid, I imagine myself living in many other places. I love watching shows, cheese, and nature.</p>
+                    </div>
+                    <div class="realcontact">
+                        <div class="emailsara">
+                            <img class="emailicon" src="images/emailicon.jpg">
+                            <a href=mailto:saraxhy94@gmail.com target="_blank">
+                                <h5>saraxhy94@gmail</h5>
+                            </a>
+                        </div>
+                        <div class="movilphone">
+                            <img class="movilicon" src="images/Movilicon.png">
+                            <a href="tel:+34679273652" target="_blank">
+                                <h5>+34 679273652</h5>
+                            </a>
+                        </div>
+                        <div class="whatsappsara">
+                            <img class="whatsappicon" src="images/Whatsappicon.png">
+                            <a href="https://wa.link/6zfu9g" target="_blank">
+                                <h5>Whatsapp</h5>
+                            </a>
+                        </div>
+    
+                    </div>
+                </div>
+    
+            </section>
+        </main>
+        <footer>
+            <div class="toalignFooter">
+                <div class="ubication">
+                    <img class="ubicationIcon" src="images/map.jpg">
+                    <h6>Madrid, Spain</h6>
+                </div>
+                <div class="footerRRSS">
+                    <a href="https://www.linkedin.com/in/sara-de-la-calle-maroto/" target="_blank"><img
+                            class="contactlogoFooter" src="images/In.jpg"></a>
+                    <a href="https://www.behance.net/sara_calle_maroto" target="_blank"><img class="contactlogoFooter"
+                            src="images/BE .jpg"></a>
+                    <a href="https://medium.com/@saraxhy94" target="_blank"><img class="contactlogoFooter"
+                            src="images/Medium.jpg"></a>
+                </div>
+            </div>
+        </footer>
+        <script>
+            AOS.init();
+          </script>
+    </body> 
+</div>
 
 </html>

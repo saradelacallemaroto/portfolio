@@ -57,7 +57,7 @@ padding-top: 81px;
   justify-content: space-between;
   border-bottom: solid 1px #272727;
   background-color: #ffffffea;
-  padding-bottom: 7px;
+  padding-bottom: 8px;
   position: fixed;
   width: 100%;
   z-index:1000;
@@ -114,7 +114,7 @@ margin-top: 64px;
 }
 p{
   font-size: 20px;
-line-height: 30px;
+line-height: 24px;
 margin-top: 8px;
 font-family: "HelveticaNeue_light"
 }
@@ -195,7 +195,6 @@ margin-bottom: 32px;
     margin-left: 124px;
     margin-top: 124px;
     margin-bottom: 48px;
-
   }
   .maracuyappinfo{
     width: 700px;
@@ -261,10 +260,27 @@ height: 560px;
 .revolute_text{
   margin-left: 32px;
 }
+.skyproject{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-right: 186px;
+}
+.sky_video{
+  height: 460px;
+}
+.skyinfo{
+  width: 700px;
+  height: 170px;
+}
+.sky_text{
+  margin-right: 32px;
+}
 .aboutme{
   width: 700px;
   margin-left: 124px;
   margin-top: 32px;
+  padding-right: 40px;
 }
 .father{
   display: flex;
@@ -374,6 +390,12 @@ footer{
   text-align: center;
 }
 @media only screen and (min-width: 1441px) {
+  #movileresponsive{
+    display: none;
+  }
+  #desktop{
+    display: block;
+  }
   body, nav {
     max-width: 1440px;
     margin: auto;
@@ -387,4 +409,301 @@ padding-top: 81px;
 line-height: 20px;
 letter-spacing: 6px;
   }
+}
+@media only screen and (min-width: 416px){
+  #movileresponsive{
+    display: none;
+  }
+  #desktop{
+    display: block;
+  }
+}
+@media only screen and (max-width:415px){
+nav{
+  width: 414px;
+}
+#movileresponsive{
+  display: block;
+}
+#desktop{
+  display: none;
+}
+.homeicon{
+  height: 22px;
+}
+.realnav{
+  padding-left: 16px;
+  padding-right: 16px;
+  letter-spacing: 4px;
+  width: 100%;
+padding-top: 24px;
+align-items: flex-end;
+}
+nav{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 375px;
+}
+#lenguage{
+  font-family: "HelveticaNeue";
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 4px;
+padding-right: 16px;
+padding-top: 8px;
+padding-left: 316px;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+}
+h1{
+  font-family: "HelveticaNeue_bold";
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+color: #6FEEC3;
+}
+h2{
+  font-family: "HelveticaNeue_bold";    
+font-size: 32px;
+color: #272727;
+margin-bottom: 32px;
+}
+h3{
+  font-family: "HelveticaNeue_light";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 39px;
+  color: #272727;
+}
+p{
+  font-size: 15px;
+line-height: 22px;
+margin-top: 8px;
+font-family: "HelveticaNeue_light"
+}
+#surname{
+  font-family: "HelveticaNeue_medium";
+font-size: 32px;
+line-height: 32px;
+color: #6FEEC3;
+}
+.inbox{
+  width: 300px;
+margin-top: 8px;
+font-size: 15px;
+line-height: 30px;
+margin-bottom: 8px;
+height: auto;
+}
+#presentation{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-content: flex-start;
+  padding-top: 32px;
+  margin-top: 64px;
+  margin-left: 16px;
+}
+#surname{
+  margin-bottom: 16px;
+}
+.designad{
+  font-family: "HelveticaNeue_light";
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+height: 39px;
+font-size: 20px;
+color: #272727;
+margin-top: 8px;
+}
+.inicio{
+  flex-direction: column;
+}
+#me {
+  width: 225px;
+  height: 300px;
+  margin-right: 16px;
+  margin-top: 16px;
+  margin-left: 64px
+}
+#mechange{
+  width: 225px;
+  height: 300px;
+  margin-right: 16px;
+  margin-top: 16px; 
+}
+.photo_and_icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgcontactlogosize{
+  width: 25px;
+  height: 25px;
+  filter: drop-shadow(0px 4px 4px rgba(39, 39, 39, 0.12));
+}
+button{
+  text-decoration: none;
+  padding: 8px 64px;
+  font-family: "HelveticaNeue_medium","san-serif";
+  font-size: 16px;
+  background-color: #272727;
+color: #ffffff;
+border: none;
+filter: drop-shadow(0px 4px 4px rgba(39, 39, 39, 0.12));
+margin-top: 16px;
+}
+.projectTitle{
+  margin-left: 31%;
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+.maracuyapp_photo{
+  height: 320px; 
+}
+.newDirection{
+  display: flex;
+  flex-direction: column;
+}
+.maracuyapp{
+  flex-direction: column;
+}
+.maracuyappinfo{
+  width: 300px;
+  height: auto;
+}
+.maracuyapp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+}
+.newDirectionKnowmore{
+  display: flex;
+  flex-direction: column;
+}
+h5{
+  font-family: "HelveticaNeue_light";    
+  font-size: 15px;
+  color: #272727;
+  margin-bottom: 16px;
+  text-decoration: underline;
+}
+h4{
+  padding-top: 16px;
+}
+.revoluteinfo{
+  width: 300px;
+  height: auto;
+}
+.revolute{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-top: 48px;
+}
+.revolute_photo{
+  height: 320px; 
+}
+.cakeproject{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 48px;
+  margin-right: 0px;
+  margin-top: 48px;
+}
+.cake_video{
+  height: 300px; 
+  margin-right: 56px;
+}
+.cakeinfo{
+  width: 300px;
+  height: auto;
+}
+.cake_text{
+  margin-top: 16px;
+}
+.skyproject{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 48px;
+  margin-right: auto;
+  margin-top: 48px;
+}
+.sky_video{
+  height: 300px;
+  margin-right: 56px;
+}
+.sky_text{
+  margin-top: 16px;
+}
+.skyinfo{
+  width: 300px;
+  height: auto;
+}
+.contactsection{
+  margin-left: 64px;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+.aboutme{
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  width: 300px;
+  height: auto;
+  margin-bottom: 32px;
+}
+.father{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+.realcontact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 8px #6FEEC3;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+.emailicon{
+  height: 32px;
+  margin-bottom: 16px;
+}
+.movilicon{
+  height: 32px;
+  margin-bottom: 16px;
+}
+.whatsappicon{
+  height: 32px;
+  margin-bottom: 16px;
+}
+.contactlogoFooter{
+  height: 24px;
+  margin-left: 24px;
+}
+.footerRRSS{
+  width: auto;
+}
+}
+
+
+video {
+  outline: none;
 }
