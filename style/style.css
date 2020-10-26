@@ -376,7 +376,20 @@ footer{
   margin-left: 5px;
   margin-right: 5px;
 }
-
+#error{
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  align-items: center;
+  align-content: space-around;
+}
+.errorrrss{
+  display: flex;
+  flex-direction: column;
+}
+.erroricon{
+  width: 24px;
+}
 @keyframes pulse {
   0% { transform: scale(1); }
   50% { transform: scale(1.5); }
