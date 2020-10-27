@@ -386,6 +386,7 @@ footer{
 .errorrrss{
   display: flex;
   flex-direction: column;
+  margin-top: 24px;
 }
 .erroricon{
   width: 24px;
