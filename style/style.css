@@ -137,6 +137,14 @@ line-height: 30px;
   filter: drop-shadow(0px 4px 4px rgba(39, 39, 39, 0.12));
   margin-top: 32px;
 }
+.contactsup:hover{
+  font-family: "HelveticaNeue_light";
+  text-decoration: underline;
+}
+.contactsuptwo:hover{
+  font-family: "HelveticaNeue_light";
+  text-decoration: underline;
+}
  button:hover {
   background-color: #272727;
   box-shadow: 0px 10px 10px rgba(39, 39, 39, 0.20);
